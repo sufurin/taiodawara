@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Audiowide|M+PLUS+1p:400,700|Open+Sans:400,700');
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #efefef;
+    color: #333;
+    font-size: 1.6rem;
+    font-family: 'M PLUS 1p', 'Open Sans', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, sans-serif;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    list-style: none;   
+}
+h1{
+    font-size: 2.4rem;
+    letter-spacing: .3rem;
+    margin: 0px;
+    padding: 20px 0 0;
+}
+h2{
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    margin: 0px;
+    padding: 20px 5px 2px;
+    border-bottom: 2px solid #666;
+}
+h3{
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin: 0px;
+    padding: 20px 5px 2px;
+}
+p{
+    letter-spacing: .05rem;
+    line-height: 32px;
+}
+a{
+    color: #38f;
+    text-decoration: none;
+}
+img{
+    margin: 5px;
+    width: 95%;
+}
+span.underline{
+    background: linear-gradient(transparent 70%, rgba(255,0,255, 0.3) 70%);
+}
+span.large{
+    font-size: 2.4rem;
+}
+header{
+    background-color: #fff;
+    box-shadow: 0 1px 1px 1px #ccc;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 97%;
+}
+main{
+    background-color: #fff;
+    border-radius: 5px;
+    float: left;
+    margin: 0 0 10px;
+    padding: 10px;
+    width: 100%;   
+}
+main p{
+    margin: 10px 5px;
+}
+.title{
+    background-color: #391;
+    color: #fff !important;
+    padding: 20px;
+    text-align: center;   
+}
+.title a{
+    color: #fff !important;
+}
+.twitter-tweet{
+    padding: 20px 0;
+}
+.next_btn{
+    background-color: #38f;
+    border-radius: 25px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+}
+
