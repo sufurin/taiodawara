@@ -44,8 +44,8 @@ a{
     text-decoration: none;
 }
 img{
-    margin: 5px;
-    width: 95%;
+    padding: 5px
+    width: 100%;
 }
 span.underline{
     background: linear-gradient(transparent 70%, rgba(255,0,255, 0.3) 70%);
